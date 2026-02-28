@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ChevronDown, MapPin, Phone, Mail, Mountain, Menu, X } from "lucide-react";
 
 export default function Header() {
@@ -55,16 +56,7 @@ export default function Header() {
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="bg-[#060d19] p-1.5 lg:p-2 rounded-lg group-hover:bg-[#fe7601] transition-colors">
-            <Mountain className="text-white w-5 h-5 lg:w-6 lg:h-6" />
-          </div>
-          <div className="flex flex-col">
-            <span className="text-lg lg:text-xl font-bold leading-none tracking-tight">
-              <span className="text-[#00cc99]">Dhruv</span>
-              <span className="text-[#060d19] ml-1">Holidays</span>
-            </span>
-            <span className="text-[9px] lg:text-[10px] text-gray-500 font-medium tracking-widest uppercase mt-0.5">Explore the Unseen</span>
-          </div>
+          <Image src="/images/logo.png" alt="Dhruv Holidays" width={600} height={180} className="w-[110px] lg:w-[130px] h-auto object-contain drop-shadow-sm" priority unoptimized />
         </Link>
 
         {/* Desktop Navigation */}
@@ -189,10 +181,9 @@ export default function Header() {
       >
         {/* Mobile Menu Header */}
         <div className="flex items-center justify-between p-5 border-b border-gray-100">
-          <span className="text-lg font-bold">
-            <span className="text-[#00cc99]">Dhruv</span>
-            <span className="text-[#060d19] ml-1">Holidays</span>
-          </span>
+          <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
+            <Image src="/images/logo.png" alt="Dhruv Holidays" width={400} height={120} className="w-[100px] h-auto object-contain drop-shadow-sm" unoptimized />
+          </Link>
           <button
             onClick={() => setIsMobileMenuOpen(false)}
             className="w-9 h-9 bg-gray-100 rounded-lg flex items-center justify-center text-gray-600 hover:bg-red-50 hover:text-red-500 transition-colors"

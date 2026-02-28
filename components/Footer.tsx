@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Mountain, MapPin, Phone, Mail, Facebook, Twitter, Linkedin, Instagram, ArrowRight } from "lucide-react";
 
 export default function Footer() {
@@ -24,14 +25,8 @@ export default function Footer() {
                     {/* Column 1 - About */}
                     <div className="space-y-6">
                         <Link href="/" className="inline-flex items-center gap-2 group mb-2">
-                            <div className="bg-[#fe7601] p-2 rounded-lg group-hover:bg-[#00cc99] transition-colors">
-                                <Mountain className="text-white w-6 h-6" />
-                            </div>
-                            <div className="flex flex-col">
-                                <span className="text-xl font-bold leading-none tracking-tight">
-                                    <span className="text-[#00cc99]">Dhruv</span>
-                                    <span className="text-white ml-2">Holidays</span>
-                                </span>
+                            <div className="bg-white p-2.5 rounded-xl w-[140px] flex items-center justify-center">
+                                <Image src="/images/logo.png" alt="Dhruv Holidays" width={600} height={180} className="w-full h-auto object-contain" unoptimized />
                             </div>
                         </Link>
                         <p className="text-sm text-gray-400 leading-relaxed mix-blend-screen">
