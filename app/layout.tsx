@@ -14,8 +14,8 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Tour Travel Tourism | Best Deals on Uttarakhand Tour Packages",
-  description: "Find details of best Restaurants, Hotels, Homestays, Cottages, Camps in Uttarakhand at TourTravelTourism.Com",
+  title: "Dhruv Holidays | Best Deals on Uttarakhand Tour Packages",
+  description: "Find details of best Restaurants, Hotels, Homestays, Cottages, Camps in Uttarakhand at Dhruv Holidays",
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
 
         {/* Floating WhatsApp Button */}
         <a
-          href="https://api.whatsapp.com/send?phone=+918006888388"
+          href="https://api.whatsapp.com/send?phone=+919412152322"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-4 right-4 md:bottom-8 md:right-8 z-[100] w-12 h-12 md:w-14 md:h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform shadow-[#25D366]/40"

@@ -29,15 +29,13 @@ export default function Footer() {
                             </div>
                             <div className="flex flex-col">
                                 <span className="text-xl font-bold leading-none tracking-tight">
-                                    <span className="text-[#00cc99]">Tour</span>
-                                    <span className="text-white">Travel</span>
-                                    <span className="text-[#00cc99]">Tourism</span>
-                                    <span className="text-sm font-semibold text-[#fe7601]">.Com</span>
+                                    <span className="text-[#00cc99]">Dhruv</span>
+                                    <span className="text-white ml-2">Holidays</span>
                                 </span>
                             </div>
                         </Link>
                         <p className="text-sm text-gray-400 leading-relaxed mix-blend-screen">
-                            TourTravelTourism.Com gives you the option of fully personalizing your trips and holidays. Keeping in mind your preferences within your budget to provide you the most memorable experience.
+                            Dhruv Holidays gives you the option of fully personalizing your trips and holidays. Keeping in mind your preferences within your budget to provide you the most memorable experience.
                         </p>
                         <div className="flex gap-4 pt-2">
                             <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-[#fe7601] hover:border-transparent transition-all"><Facebook size={18} /></a>
@@ -58,15 +56,15 @@ export default function Footer() {
                                     <MapPin size={20} />
                                 </div>
                                 <span className="text-sm text-gray-400 leading-relaxed">
-                                    Haldwani | Haridwar | Rishikesh | Dehradun | Delhi
+                                    Boby nursing home wali gali, Hastinapur, Uttar Pradesh 250404
                                 </span>
                             </li>
                             <li className="flex items-start gap-4">
                                 <div className="mt-1 w-10 h-10 rounded-[10px] bg-white/5 flex items-center justify-center text-[#00cc99] flex-shrink-0">
                                     <Phone size={20} />
                                 </div>
-                                <a href="tel:+918006888388" className="text-sm text-gray-400 hover:text-white transition-colors leading-relaxed">
-                                    +91-800-6888-388 <br />
+                                <a href="tel:+919412152322" className="text-sm text-gray-400 hover:text-white transition-colors leading-relaxed">
+                                    +91-9412152322 <br />
                                     <span className="text-xs text-[#00cc99]">Available 24/7 on WhatsApp</span>
                                 </a>
                             </li>
@@ -74,8 +72,8 @@ export default function Footer() {
                                 <div className="mt-1 w-10 h-10 rounded-[10px] bg-white/5 flex items-center justify-center text-blue-400 flex-shrink-0">
                                     <Mail size={20} />
                                 </div>
-                                <a href="mailto:info@tourtraveltourism.com" className="text-sm text-gray-400 hover:text-white transition-colors">
-                                    info@tourtraveltourism.com
+                                <a href="mailto:sachinkumar132013@gmail.com" className="text-sm text-gray-400 hover:text-white transition-colors">
+                                    sachinkumar132013@gmail.com
                                 </a>
                             </li>
                         </ul>
@@ -122,7 +120,7 @@ export default function Footer() {
             <div className="border-t border-white/5 bg-black/40 py-6">
                 <div className="container mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-xs text-gray-500 text-center md:text-left">
-                        Copyrights © 2012-2028 <span className="text-[#00cc99] font-medium">TourTravelTourism.Com</span>. All Rights Reserved
+                        Copyrights © 2012-2028 <span className="text-[#00cc99] font-medium">Dhruv Holidays</span>. All Rights Reserved
                     </p>
                     <p className="text-xs text-gray-500">
                         Powered by <a href="https://www.khozlo.in/" target="_blank" rel="noopener" className="text-[#fe7601] font-bold hover:underline tracking-wider">KHOZLO</a>

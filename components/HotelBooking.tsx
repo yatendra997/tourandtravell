@@ -8,19 +8,19 @@ export default function HotelBooking() {
             title: "Hotels in Kedarnath",
             locations: "Guptkashi, Phata, Sonprayag, Kedarnath",
             image: "/images/hotel-1.jpg",
-            whatsapp: "https://api.whatsapp.com/send?phone=+918006888388&text=Hi,%20I%20am%20visiting%20hotels%20in%20Kedarnath"
+            whatsapp: "https://api.whatsapp.com/send?phone=+919412152322&text=Hi,%20I%20am%20visiting%20hotels%20in%20Kedarnath"
         },
         {
             title: "Hotels in Char Dham",
             locations: "Yamunotri, Gangotri, Kedarnath, Badrinath",
             image: "/images/hotel-2.jpg",
-            whatsapp: "https://api.whatsapp.com/send?phone=+918006888388&text=Hi,%20I%20am%20visiting%20hotels%20in%20CharDhamYatra"
+            whatsapp: "https://api.whatsapp.com/send?phone=+919412152322&text=Hi,%20I%20am%20visiting%20hotels%20in%20CharDhamYatra"
         },
         {
             title: "Hotel in Badrinath",
             locations: "Chamoli, Pipalkoti, Joshimath, Badrinath",
             image: "/images/hotel-3.jpg",
-            whatsapp: "https://api.whatsapp.com/send?phone=+918006888388&text=Hi,%20I%20am%20visiting%20hotels%20in%20Badrinath"
+            whatsapp: "https://api.whatsapp.com/send?phone=+919412152322&text=Hi,%20I%20am%20visiting%20hotels%20in%20Badrinath"
         }
     ];
 

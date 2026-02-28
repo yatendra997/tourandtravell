@@ -60,10 +60,8 @@ export default function Header() {
           </div>
           <div className="flex flex-col">
             <span className="text-lg lg:text-xl font-bold leading-none tracking-tight">
-              <span className="text-[#00cc99]">Tour</span>
-              <span className="text-[#060d19]">Travel</span>
-              <span className="text-[#00cc99]">Tourism</span>
-              <span className="text-xs lg:text-sm font-semibold text-[#fe7601]">.Com</span>
+              <span className="text-[#00cc99]">Dhruv</span>
+              <span className="text-[#060d19] ml-1">Holidays</span>
             </span>
             <span className="text-[9px] lg:text-[10px] text-gray-500 font-medium tracking-widest uppercase mt-0.5">Explore the Unseen</span>
           </div>
@@ -146,11 +144,11 @@ export default function Header() {
 
         {/* Desktop CTA Button */}
         <div className="hidden lg:flex items-center gap-4">
-          <a href="tel:+918006888388" className="flex items-center gap-2 text-[#060d19] font-semibold hover:text-[#fe7601] transition-colors">
+          <a href="tel:+919412152322" className="flex items-center gap-2 text-[#060d19] font-semibold hover:text-[#fe7601] transition-colors">
             <div className="bg-gray-100 p-2 rounded-full">
               <Phone className="w-4 h-4" />
             </div>
-            <span className="text-sm">+91-800-6888-388</span>
+            <span className="text-sm">+91-9412152322</span>
           </a>
           <Link
             href="/plan-your-trip"
@@ -163,7 +161,7 @@ export default function Header() {
         {/* Mobile: Phone + Hamburger */}
         <div className="flex lg:hidden items-center gap-3">
           <a
-            href="tel:+918006888388"
+            href="tel:+919412152322"
             className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-[#060d19] hover:bg-[#fe7601] hover:text-white transition-colors"
             aria-label="Call us"
           >
@@ -192,9 +190,8 @@ export default function Header() {
         {/* Mobile Menu Header */}
         <div className="flex items-center justify-between p-5 border-b border-gray-100">
           <span className="text-lg font-bold">
-            <span className="text-[#00cc99]">Tour</span>
-            <span className="text-[#060d19]">Travel</span>
-            <span className="text-[#00cc99]">Tourism</span>
+            <span className="text-[#00cc99]">Dhruv</span>
+            <span className="text-[#060d19] ml-1">Holidays</span>
           </span>
           <button
             onClick={() => setIsMobileMenuOpen(false)}
